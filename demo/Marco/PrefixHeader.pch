@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  demo
+//
+//  Created by 北京启智 on 2016/11/15.
+//  Copyright © 2016年 北京启智. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "SDAutoLayout.h"
+#import "UIView+add.h"
+#import "UIImage+image.h"
+#import "UIBarButtonItem+Extension.h"
+#import "MJRefresh.h"
+#import "MJExtension.h"
+#import "JHHttpTool.h"
+#import "AccountTool.h"
+#import "AccountModel.h"
+#import "UIImageView+WebCache.h"
+#import "NSString+Emoji.h"
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HIGHT [UIScreen mainScreen].bounds.size.height
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+//#define NSLog(FORMAT, ...) fprintf(stderr,"[%s:%d行] %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#define SHOW_ALERT22(_msg_)   UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:_msg_ preferredStyle:UIAlertControllerStyleAlert];\
+[self presentViewController:alert animated:YES completion:^{}];\
+[alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {}]];
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define pictureWidth (WIDTH - 60) / 3
+#define pictureMargin 10
+#define NotificationCenter [NSNotificationCenter defaultCenter]
+// RGB颜色
+#define HWColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define HWRandomColor HWColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#endif /* PrefixHeader_pch */
