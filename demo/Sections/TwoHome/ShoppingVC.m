@@ -87,7 +87,7 @@
     }];
     for (NSDictionary *temp in dataArray) {
         GroupModel *model = [GroupModel mj_objectWithKeyValues:temp];
-        NSLog(@"%@==%@",model.products,model.brandName);
+//        NSLog(@"%@==%@",model.products,model.brandName);
         [self.dataArr addObject:model];
     }
 

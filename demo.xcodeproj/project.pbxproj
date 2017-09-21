@@ -379,6 +379,7 @@
 		C2785C3B1DFA84B500ED72B0 /* EmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C2785C3A1DFA84B500ED72B0 /* EmotionKeyboard.m */; };
 		C2785C3E1DFA857000ED72B0 /* EmotionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2785C3D1DFA857000ED72B0 /* EmotionListView.m */; };
 		C2D368241DFE38350059291C /* StatuesPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D368231DFE38350059291C /* StatuesPhotoView.m */; };
+		EE13D1A11ED6851F00E6BA8E /* arcView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE13D19F1ED6851F00E6BA8E /* arcView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1029,6 +1030,8 @@
 		C2785C3D1DFA857000ED72B0 /* EmotionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmotionListView.m; path = ../EmotionListView.m; sourceTree = "<group>"; };
 		C2D368221DFE38350059291C /* StatuesPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatuesPhotoView.h; sourceTree = "<group>"; };
 		C2D368231DFE38350059291C /* StatuesPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatuesPhotoView.m; sourceTree = "<group>"; };
+		EE13D19F1ED6851F00E6BA8E /* arcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = arcView.m; sourceTree = "<group>"; };
+		EE13D1A01ED6851F00E6BA8E /* arcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arcView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1248,6 +1251,8 @@
 		0EFC7A211ECE91EB000CFB7D /* V */ = {
 			isa = PBXGroup;
 			children = (
+				EE13D1A01ED6851F00E6BA8E /* arcView.h */,
+				EE13D19F1ED6851F00E6BA8E /* arcView.m */,
 				0EFC7A2A1ECE97C6000CFB7D /* ShopHeadView.h */,
 				0EFC7A2B1ECE97C6000CFB7D /* ShopHeadView.m */,
 				0EFC7A2D1ECE9A69000CFB7D /* ShopCell.h */,
@@ -2385,7 +2390,7 @@
 				TargetAttributes = {
 					8D87399F1DDAD1660049CC23 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = QLF29V62AV;
+						DevelopmentTeam = 9RF9SAA388;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -2646,6 +2651,7 @@
 				8D873A331DDAE3E60049CC23 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				8DA8CB851DE29CEB00575737 /* MineViewController.m in Sources */,
 				8DA8CB5D1DDED15500575737 /* QNHijackingDetectWrapper.m in Sources */,
+				EE13D1A11ED6851F00E6BA8E /* arcView.m in Sources */,
 				C2785C3B1DFA84B500ED72B0 /* EmotionKeyboard.m in Sources */,
 				0EF56EC01ED2D0F000A0E8F0 /* NSBundle+TZImagePicker.m in Sources */,
 				8DA8CB221DDECDA000575737 /* QNResumeUpload.m in Sources */,
@@ -2938,7 +2944,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = demo/demo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = QLF29V62AV;
+				DEVELOPMENT_TEAM = 9RF9SAA388;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/demo/Thirds/UMSocial/SocialLibraries/QQ",
@@ -2959,7 +2965,7 @@
 					"$(PROJECT_DIR)/demo/Thirds/Lib",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qizhixy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjkjqizhixy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2973,7 +2979,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = demo/demo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = QLF29V62AV;
+				DEVELOPMENT_TEAM = 9RF9SAA388;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/demo/Thirds/UMSocial/SocialLibraries/QQ",
@@ -2994,7 +3000,7 @@
 					"$(PROJECT_DIR)/demo/Thirds/Lib",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qizhixy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjkjqizhixy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
